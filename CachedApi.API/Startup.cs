@@ -40,9 +40,7 @@ namespace CachedApi.API
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
 
-            //Adding the Middleware for caching
             services.AddMemoryCache();
-
 
             services.AddMvc();
         }
