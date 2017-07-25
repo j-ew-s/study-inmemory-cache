@@ -2,14 +2,15 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
 
+// For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+
 namespace CachedApi.API.Controllers
 {
-    [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class CacheController : Controller
     {
         private readonly IMemoryCache _cache;
 
-        public ValuesController(IMemoryCache memoryCache)
+        public CacheController(IMemoryCache memoryCache)
         {
             _cache = memoryCache;
         }
