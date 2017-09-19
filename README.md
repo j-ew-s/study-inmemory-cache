@@ -1,10 +1,10 @@
 # study-inmemory-cache
 
-Caching is cool approache to use in order to improve our app's performance, also reduce the work to generate a content, avoiding calling again and aging methods, layers and DB.
+Caching is a cool approache to use in order to improve our app's performance reducing work to generate a content avoiding calling again and again methods, layers and DB.
 
-When you cache some data, the app will create a copy of your data so it can be returned faster than the first time.
+When you cache data, the app will create a copy in memory and this is why it will return faster than first time.
 
-You will have a little bit more advantage caching data that does not always change, like User's Address for example.
+Cache is a good approache to use when you have data that does not change every time; like User Address.
 
 For this study I am using:
 + Dot Net Core;
